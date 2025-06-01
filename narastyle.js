@@ -8,3 +8,12 @@ function setActive(element) {
   links.forEach(link => link.classList.remove('active'));
   element.classList.add('active');
 }
+
+function buttonClick(message) {
+    const btn = event.target;
+    btn.classList.add("clicked");
+    alert(message);
+    setTimeout(() => {
+      btn.classList.remove("clicked");
+    }, 300);
+  }

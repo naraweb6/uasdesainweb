@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Personal Page</title>
   <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Chango&family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chango&family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Narastyle.css">
 </head>
 <body>
-
   <nav>
     <div class="logo" onclick="toggleNav()">
   <img src="logo.png" alt="Logo NARA" style="height: 60px;">
@@ -89,82 +88,104 @@
     <h2>✨ My Experience ✨</h2>
     <p class="experience-subtitle">Organizational roles I've taken at UPI Cibiru Campus</p>
 
-    <!-- Event Division -->
-    <div class="exp-item">
-      <div class="exp-img">
-        <img src="img1.jpeg" alt="Event Activities">
+    <div class="exp-list">
+      <!-- Repeatable Experience Item -->
+      <div class="exp-item">
+        <div class="exp-img">
+          <img src="img1.jpeg" alt="Event Activities">
+        </div>
+        <div class="exp-text">
+          <h3>📌 Event Division</h3>
+          <p><strong>I was involved in concept planning, hosting, and leading the event team in Tutorial PAI 2024. It strengthened my leadership, creativity, and ability to think on my feet.</strong></p>
+        </div>
       </div>
-      <div class="exp-text">
-        <h3>📌 Event Division</h3>
-        <p><strong>I was involved in concept planning, hosting, and leading the event team in Tutorial PAI 2024. It strengthened my leadership, creativity, and ability to think on my feet.</strong></p>
-      </div>
-    </div>
 
-    <!-- HR & Leadership -->
-    <div class="exp-item">
-      <div class="exp-img">
-        <img src="img2.jpeg" alt="Leadership and HR">
+      <div class="exp-item reverse">
+        <div class="exp-img">
+          <img src="img2.jpeg" alt="Leadership and HR">
+        </div>
+        <div class="exp-text">
+          <h3>💼 HR & Leadership</h3>
+          <p><strong>As Chair and Vice Chair, I developed strong communication and teamwork skills, while mentoring and supporting others in various leadership roles.</strong></p>
+        </div>
       </div>
-      <div class="exp-text">
-        <h3>💼 HR & Leadership</h3>
-        <p><strong>As Chair and Vice Chair, I developed strong communication and teamwork skills, while mentoring and supporting others in various leadership roles.</strong></p>
-      </div>
-    </div>
 
-    <!-- Secretariat -->
-    <div class="exp-item">
-      <div class="exp-img">
-        <img src="img3.jpeg" alt="Secretariat Division">
+      <div class="exp-item">
+        <div class="exp-img">
+          <img src="img3.jpeg" alt="Secretariat Division">
+        </div>
+        <div class="exp-text">
+          <h3>🗂️ Secretariat</h3>
+          <p><strong>I managed documentation, reports, and organizational archives. This role taught me precision, structure, and the value of timely information.</strong></p>
+        </div>
       </div>
-      <div class="exp-text">
-        <h3>🗂️ Secretariat</h3>
-        <p><strong>I managed documentation, reports, and organizational archives. This role taught me precision, structure, and the value of timely information.</strong></p>
-      </div>
-    </div>
 
-    <!-- IT & Graphics -->
-    <div class="exp-item">
-      <div class="exp-img">
-        <img src="img4.jpeg" alt="IT and Graphics">
-      </div>
-      <div class="exp-text">
-        <h3>🎨 IT & Graphics</h3>
-        <p><strong>I channeled my creativity by designing posters, managing social media content, and helping maintain our internal website and visual assets.</strong></p>
+      <div class="exp-item reverse">
+        <div class="exp-img">
+          <img src="img4.jpeg" alt="IT and Graphics">
+        </div>
+        <div class="exp-text">
+          <h3>🎨 IT & Graphics</h3>
+          <p><strong>I channeled my creativity by designing posters, managing social media content, and helping maintain our internal website and visual assets.</strong></p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 
+
 <!-- Section: Portfolio -->
 <section id="porthfolio">
-  <h2>Porthfolio</h2>
+
+  <h2>Portfolio</h2>
+  <h3 class="porthfolio-subtitle">Curriculum Vitae</h3>
+
   <div class="cv-cards">
     <div class="cv-card">
       <img src="hal 1.jpg" alt="CV Page 1" />
+      <a href="hal 1.jpg" class="explore-btn" target="_blank">Explore</a>
     </div>
     <div class="cv-card">
       <img src="hal 2.jpg" alt="CV Page 2" />
+      <a href="hal 2.jpg" class="explore-btn" target="_blank">Explore</a>
     </div>
     <div class="linkedin-container">
-      <a href="https://www.linkedin.com/in/hasna-rahma-wardani-5392b9295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin-btn">
+      <a href="https://www.linkedin.com/in/hasna-rahma-wardani-5392b9295" target="_blank" class="linkedin-btn">
         LinkedIn Profile
       </a>
     </div>
   </div>
 
-  <div class="porthfolio-links">
-    <a href="https://issuu.com/naraart6/docs/naraa_art" target="_blank">
-      <img src="art.jpg" alt="Ilustration" />
-    </a>
-    <a href="https://www.canva.com/design/DAGY4sTVUoM/K3f1ucGX6zkkgdKePeb-Fg/edit?utm_content=DAGY4sTVUoM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
-      <img src="pict.jpg" alt="Pict" />
-    </a>
-    <a href="https://www.instagram.com/reel/DIeT1N7T9h9/?igsh=MTFwZW43ZzlzdnBkdA==" target="_blank">
-      <img src="vid.jpeg" alt="Video" />
-    </a>
+  <h3 class="porthfolio-subtitle">Creative Projects</h3>
+  <div class="portfolio-section">
+    <div class="portfolio-card">
+      <img src="art.jpg" alt="Illustration" class="portfolio-img" />
+      <h3 class="portfolio-title">Illustration</h3>
+      <a href="https://issuu.com/naraart6/docs/naraa_art" target="_blank" class="explore-btn">Explore</a>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="pict.jpg" alt="Design" class="portfolio-img" />
+      <h3 class="portfolio-title">Design</h3>
+      <a href="https://www.canva.com/design/DAGY4sTVUoM/K3f1ucGX6zkkgdKePeb-Fg/edit" target="_blank" class="explore-btn">Explore</a>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="vid.jpeg" alt="Video" class="portfolio-img" />
+      <h3 class="portfolio-title">Video</h3>
+      <a href="https://www.instagram.com/reel/DIeT1N7T9h9/" target="_blank" class="explore-btn">Explore</a>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="bookstories.jpg" alt="Bookstories" class="portfolio-img" />
+      <h3 class="portfolio-title">Bookstories</h3>
+      <a href="https://heyzine.com/flip-book/70a47ca12f.html" target="_blank" class="explore-btn">Explore</a>
+    </div>
   </div>
 </section>
+
+
 
 <!-- Section: Favorite Music & Movie Side by Side -->
 <section style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding: 30px 0;">
@@ -176,43 +197,48 @@
     <a href="https://open.spotify.com/" target="_blank" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background-color: #006871; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">Listen on Spotify</a>
   </div>
 
-  <!-- Fav Movie -->
-<div id="favmovie" style="flex: 1 1 300px; max-width: 400px; background: linear-gradient(to bottom right, #ffffff, #8DCBE6, #FFEA20); padding: 20px; border-radius: 12px; text-align: center;">
-    <h2 style="color: #FFF;">My Fav Movie</h2>
- <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-    <div style="text-align: center;">
-      <img src="ghibli.jpeg" alt="Ghibli" style="width: 110px; height: auto; border-radius: 10px;" />
-      <div style="margin-top: 5px;">
-        <a href="https://www.netflix.com/id/browse/genre/81227213" target="_blank" style="display: inline-block; background-color: #006871; color: #fff; padding: 5px 10px; border-radius: 6px; font-size: 0.9em; text-decoration: none;">Ghibli movies</a>
-      </div>
-    </div>
-    <div style="text-align: center;">
-      <img src="drakor.jpeg" alt="Drakor" style="width: 110px; height: auto; border-radius: 10px;" />
-      <div style="margin-top: 5px;">
-        <a href="https://www.netflix.com/id/browse/genre/2638104" target="_blank" style="display: inline-block; background-color: #006871; color: #fff; padding: 5px 10px; border-radius: 6px; font-size: 0.9em; text-decoration: none;">Korean Dramas</a>
-      </div>
-    </div>
-    <div style="text-align: center;">
-      <img src="jdrama.jpeg" alt="Jdrama" style="width: 110px; height: auto; border-radius: 10px;" />
-      <div style="margin-top: 5px;">
-        <a href="https://www.netflix.com/browse/genre/100385" target="_blank" style="display: inline-block; background-color: #006871; color: #fff; padding: 5px 10px; border-radius: 6px; font-size: 0.9em; text-decoration: none;">Japanese Dramas</a>
-      </div>
-    </div>
-    </div>
+<!-- Fav Movie -->
+<section id="favmovie" style="flex: 1 1 300px; max-width: 600px; background: linear-gradient(to bottom right, #ffffff, #8DCBE6, #FFEA20); padding: 20px; border-radius: 20px; text-align: center; box-shadow: 0 8px 24px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
+  <h2 style="color: #FBF8F8; font-family: 'Chango', cursive; font-size: 2em; margin-bottom: 20px;">My Fav Movie</h2>
+
+  <!-- Tombol Interaktif -->
+  <div class="movie-buttons" style="margin-bottom: 25px; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
+    <button class="fancy-btn" onclick="buttonClick('Ghibli is magical!')">✨ Ghibli</button>
+    <button class="fancy-btn" onclick="buttonClick('K-Drama feels!')">💖 Drakor</button>
+    <button class="fancy-btn" onclick="buttonClick('J-Drama time!')">🎌 J-Drama</button>
   </div>
 
+  <!-- Daftar Film -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+    <div class="movie-item">
+      <img src="ghibli.jpeg" alt="Ghibli" />
+      <a href="https://www.netflix.com/id/browse/genre/81227213" target="_blank">Ghibli Movies</a>
+    </div>
+
+    <div class="movie-item">
+      <img src="drakor.jpeg" alt="Drakor" />
+      <a href="https://www.netflix.com/id/browse/genre/2638104" target="_blank">Korean Dramas</a>
+    </div>
+
+    <div class="movie-item">
+      <img src="jdrama.jpg" alt="Jdrama" />
+      <a href="https://www.netflix.com/browse/genre/100385" target="_blank">Japanese Dramas</a>
+    </div>
+  </div>
 </section>
+
 
 <section id="about">
   <div class="about-container">
+    
     <!-- Left Text -->
     <div class="about-text">
-      <h2>About</h2>
+      <h2>About Me 🧚‍♀️✨</h2>
       <p>
-        Hey there! I’m <strong>Hasna Rahma Wardani</strong>, but you can just call me Hasna.
-        I’m a creative student who loves exploring everything from art to technology like a mix of Canva and coding 🤪.
-        With an <strong>ENFP</strong> personality, I’m outgoing, full of ideas, and always pumped to try new things.
-        Life for me is colorful just like a perfectly curated Instagram feed!
+        Hi! I’m <strong>Hasna Rahma Wardani</strong> but you can just call me <em>Nara</em>! 💫<br><br>
+        I’m a <strong>creative explorer</strong> who loves blending <span style="color:#ff69b4;">🎨 art</span> and <span style="color:#7FDBFF;">💻 tech</span> think of it like Figma meets coding (with a little chaos and sparkle 🤪✨).<br><br>
+        As an <strong>ENFP</strong>, I’m super energetic, full of wild ideas 💡, and always curious to try something new. Whether it’s designing something aesthetic, building a fun web page, or just vibing with creative stuff that’s my jam! 🎶<br><br>
+        Life to me? It's like a perfectly curated Instagram feed colorful, quirky, and totally me! 🌈📸
       </p>
     </div>
 
@@ -224,56 +250,60 @@
       </div>
       <img src="catty.gif" alt="Catty GIF" class="catty-img" />
     </div>
+
   </div>
 </section>
 
-<!-- Footer Section -->
-<footer class="footer" style="background-color: #f; color: white; position: relative; padding: 60px 20px 20px;">
-  <div class="footer-shape"></div>
+<footer class="footer">
+  <div class="footer-container">
 
-  <div class="footer-content">
-    <!-- Contact Section -->
-    <div class="footer-social">
-      <h3>Contact Us</h3>
+    <!-- Gambar My.jpg di Kiri -->
+    <div class="footer-section footer-image">
+      <img src="my.png" alt="Hasna's Photo">
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h3>Contact</h3>
       <ul>
         <li><a href="https://instagram.com/hsn.naraaja3110_" target="_blank">Instagram</a></li>
         <li><a href="https://wa.me/83197355238" target="_blank">WhatsApp</a></li>
         <li><a href="tel:+6283197355238">Telephone</a></li>
-        <li><a href="https://linkedin.com/hasnarahmawardani" target="_blank">LinkedIn</a></li>
+        <li><a href="https://linkedin.com/in/hasnarahmawardani" target="_blank">LinkedIn</a></li>
         <li><a href="mailto:hssnsaturnqueen6@gmail.com">Email</a></li>
       </ul>
     </div>
 
     <!-- Message Form -->
-    <div class="footer-newsletter">
-      <h3>Send a Message</h3>
-      <p>If you want to leave me a message, just fill out this form 👇</p>
-      <form class="newsletter-form" action="https://formspree.io/f/yourformid" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your E-mail" required>
-        <textarea name="message" placeholder="Your Message" rows="4" required style="padding: 0.5rem; margin-bottom: 0.5rem; border: none; border-radius: 5px;"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+    <!-- Message Form -->
+<div class="footer-section message">
+  <h3>Message Me</h3>
+  <form action="https://formspree.io/f/yourformid" method="POST" class="footer-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</div>
 
-    <!-- Tools Section -->
-    <div class="footer-tools">
-      <h3>Web Design Tools</h3>
+    <!-- Tools List -->
+    <div class="footer-section">
+      <h3>Tools I Use</h3>
       <ul>
-        <li>Dreamweaver</li>
-        <li>Notepad++</li>
-        <li>Adobe Illustrator</li>
         <li>Figma</li>
-        <li>IbisPaint X</li>
+        <li>Adobe Illustrator</li>
         <li>Clip Studio Paint</li>
+        <li>Notepad++</li>
+        <li>Dreamweaver</li>
+        <li>IbisPaint X</li>
       </ul>
-    </div>
+   </div>
+
   </div>
 
   <div class="footer-bottom">
     <p>&copy; 2025 Hasna Rahma Wardani. All rights reserved.</p>
   </div>
 </footer>
-
 </body>
 </html>
